@@ -1,6 +1,6 @@
-import sys
+
 from pathlib import Path
-sys.path.append(str(Path(__file__).parent.parent / "05_oop"))
+(str(Path(__file__).parent.parent / "05_oop"))
 from gorev_47 import Cuzdan
 def test_cuzdan_kapsulleme():
     c = Cuzdan(100)

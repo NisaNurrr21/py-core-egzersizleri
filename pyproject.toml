@@ -1,0 +1,6 @@
+[project]
+name = "py-core-egzersizleri"
+version = "0.1.0"
+dependencies = [
+    "pytest>=7.0.0"
+]

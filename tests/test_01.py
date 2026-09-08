@@ -1,8 +1,8 @@
-import sys
+
 from pathlib import Path
 
 # Python'un görev dosyamızı bulabilmesi için klasör yolunu tanıtıyoruz
-sys.path.append(str(Path(__file__).parent.parent / "01_string_isleme"))
+(str(Path(__file__).parent.parent / "01_string_isleme"))
 
 from gorev_01 import sesli_harfleri_kaldir
 

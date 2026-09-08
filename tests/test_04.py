@@ -1,6 +1,6 @@
-import sys
+
 from pathlib import Path
-sys.path.append(str(Path(__file__).parent.parent / "01_string_isleme"))
+(str(Path(__file__).parent.parent / "01_string_isleme"))
 from gorev_04 import veriyi_maskele
 
 def test_veriyi_maskele():

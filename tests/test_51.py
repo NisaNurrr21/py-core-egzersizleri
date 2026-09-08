@@ -1,6 +1,6 @@
-import sys
+
 from pathlib import Path
-sys.path.append(str(Path(__file__).parent.parent / "05_oop"))
+(str(Path(__file__).parent.parent / "05_oop"))
 from gorev_51 import Urun
 import pytest
 def test_urun_fiyat_kontrol():

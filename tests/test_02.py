@@ -1,8 +1,8 @@
-import sys
+
 from pathlib import Path
 
 # Python'a klasör yolunu öğretiyoruz
-sys.path.append(str(Path(__file__).parent.parent / "01_string_isleme"))
+(str(Path(__file__).parent.parent / "01_string_isleme"))
 
 from gorev_02 import domain_cikar
 

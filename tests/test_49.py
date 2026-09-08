@@ -1,6 +1,6 @@
-import sys
+
 from pathlib import Path
-sys.path.append(str(Path(__file__).parent.parent / "05_oop"))
+(str(Path(__file__).parent.parent / "05_oop"))
 from gorev_49 import SistemKullanicisi
 def test_sinif_degiskeni():
     SistemKullanicisi.aktif_kullanici_sayisi = 0 # Testi sıfırla

@@ -1,6 +1,6 @@
-import sys
+
 from pathlib import Path
-sys.path.append(str(Path(__file__).parent.parent / "01_string_isleme"))
+(str(Path(__file__).parent.parent / "01_string_isleme"))
 
 # Sonrası senin yazdığın gibi kalacak:
 from gorev_06 import anagram_mi

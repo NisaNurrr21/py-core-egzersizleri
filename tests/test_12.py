@@ -1,6 +1,6 @@
-import sys
+
 from pathlib import Path
-sys.path.append(str(Path(__file__).parent.parent / "02_koleksiyonlar"))
+(str(Path(__file__).parent.parent / "02_koleksiyonlar"))
 
 from gorev_12 import toplam_puan
 

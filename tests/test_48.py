@@ -1,6 +1,6 @@
-import sys
+
 from pathlib import Path
-sys.path.append(str(Path(__file__).parent.parent / "05_oop"))
+(str(Path(__file__).parent.parent / "05_oop"))
 from gorev_48 import Isletme, Kafe
 def test_isletme_kalitim():
     standart_isletme = Isletme("Butik")

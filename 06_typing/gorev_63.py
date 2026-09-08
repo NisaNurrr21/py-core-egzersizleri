@@ -1,3 +1,13 @@
-from typing import Dict
-def stok_durumu(stoklar: Dict[str, int], urun: str) -> int:
-    return stoklar.get(urun, 0)
+from typing import TypeVar, List
+
+# T adında esnek bir tip değişkeni oluşturuyoruz
+T = TypeVar('T')
+
+def ilk_elemani_getir(liste: List[T]) -> T:
+    """
+    İçine hangi tipte liste girerse, dönüş tipi de otomatik olarak o tip olur.
+    Örn: List[int] girerse int döner, List[str] girerse str döner.
+    """
+    if not liste:
+        raise ValueError("Liste boş olamaz")
+    return liste[0]
