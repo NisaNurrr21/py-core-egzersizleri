@@ -9,5 +9,5 @@ def yetki_kontrol(kullanici: Kullanici) -> bool:
     return kullanici["rol"] == "admin"
 
 # --- Testlerin geçmesi için beklenen orijinal fonksiyon ---
-def temel_tipler(a: int, b: float, c: str, d: bool) -> tuple:
-    return (a, b, c, d)
+def temel_tipler(isim: str, yas: int) -> str:
+    return f"{isim} {yas} yaşında"
