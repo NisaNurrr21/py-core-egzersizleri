@@ -1,4 +1,4 @@
-
+import sys
 from pathlib import Path
 
 # Proje ana dizinini sys.path'e ekler, 80 testin hepsinde otomatik çalışır
