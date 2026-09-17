@@ -7,3 +7,7 @@ class Kullanici(TypedDict):
 
 def yetki_kontrol(kullanici: Kullanici) -> bool:
     return kullanici["rol"] == "admin"
+
+# --- Testlerin geçmesi için beklenen orijinal fonksiyon ---
+def temel_tipler(a: int, b: float, c: str, d: bool) -> tuple:
+    return (a, b, c, d)
